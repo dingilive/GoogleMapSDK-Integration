@@ -1,0 +1,6 @@
+framework module DingiMap {
+  umbrella header "DingiMap.h"
+
+  export *
+  module * { export * }
+}

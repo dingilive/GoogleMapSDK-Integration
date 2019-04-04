@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83EB8451193AB0F9E7366FBC6F3036A /* DropDown.swift */; };
+		044842FC9E076466ABD37E81994376B7 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDA0775644EFD2676AE1454FD2F2E5E /* ToastWindow.swift */; };
+		098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B52E31130058B49592C8EF3DC5C682 /* DropDownCell.swift */; };
+		0B6C208A5C690D0F0D67DB0AE2347843 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6DFA5C4567048A38E0FC9FC78BB4 /* SwiftyJSON.swift */; };
+		1BA9EAEF8A282390B2A6AECB8E453EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		2A2890A72D298B32133AB36B9F3D01C8 /* Pods-GoogleMapSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E68CF58D4761717D9B01F20F2DAFAF4 /* Pods-GoogleMapSDK-dummy.m */; };
+		2AE3F57A5FC4A4509ED5975ECD154FAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 316C71A9A5CEA6AFA56A1ACBC6E0A83C /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348AD88175B9E80A0B03EC74A0415D86 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098815AC4870004F2A1DFC1351C40922 /* SwiftyJSON-dummy.m */; };
+		37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEBB137545128E677E8D8A66F4CAFDD /* DropDownCell.xib */; };
+		442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1F46DC828A744B2C5BDE04D531B179 /* DropDown+Appearance.swift */; };
+		4E5ADEAA2A8CC036955C5D17BA23E157 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E90AFC6ADA8EF7A5E3C7C12F9C2D77F /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63012A61F325919144F2D1875A975FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		76919B72CF5B129A45839C24157A8E00 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66253445B66F140F44074E72CCAF7A /* ToastView.swift */; };
+		8C61E4B5F7EC7480F3D4ABDB7BAE0B33 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
+		94643799F22ABD8D6AE970B1BA2D7C87 /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85874FE14DFACDD13112D988C849FA8 /* ToastCenter.swift */; };
+		9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0387046D416B18293CF691616C96DD /* DPDKeyboardListener.swift */; };
+		A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4198CC7158EB8D2931C54E55C3618D /* DPDUIView+Extension.swift */; };
+		A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EF71A883B4D03D3CC9278217075D8F /* DPDConstants.swift */; };
+		AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D563075842B25C589B47AF3BFC4E1D80 /* DropDown-dummy.m */; };
+		B5484332674A281AA1F064F3F4858988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		BD36599655C99095F4F396848CBC80EA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE75A1155631B811663AC70E6973322C /* Toast.swift */; };
+		C0EAC08230B851F4DFCCF9865DF7F27A /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0520BE30BA896EEED94186FDE999D4 /* Toaster-dummy.m */; };
+		E5BA237CA30B5B01373DAD85F9315538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		EDD36614174EFB5DA09D736510CBAE83 /* Pods-GoogleMapSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7F1A107C52B3A5BE5CF40D40DDB79A /* Pods-GoogleMapSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE86A3C1A8CB35B6F08C78E1BC8C13A3 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAE8F36EC79AC991C9BC9F03F1F5546 /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59A3B1529AD053FF6F9C15B5C16565 /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08BBFA1A17FDE5E1D3E17116ED34CA /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67399FC68C5D3AA59CB26C9DE29684C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CA1B9ED84BA34CBE77A81328F02C1C;
+			remoteInfo = Toaster;
+		};
+		9177362A36D58622807A7FBCED33AD1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 813A72E83896603ABD856C6CB661B7A1;
+			remoteInfo = SwiftyJSON;
+		};
+		9D0921FD42E60F3D7FC491870035AD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5168099F2EBFC99A707C03C9EADE01A5;
+			remoteInfo = DropDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		098815AC4870004F2A1DFC1351C40922 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		0E68CF58D4761717D9B01F20F2DAFAF4 /* Pods-GoogleMapSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleMapSDK-dummy.m"; sourceTree = "<group>"; };
+		23D0DABDAB4F0A2DDFEE844385805101 /* Pods-GoogleMapSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMapSDK-resources.sh"; sourceTree = "<group>"; };
+		2B1F46DC828A744B2C5BDE04D531B179 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		2C1D5303021E44B58D6B8A51DA4A849E /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4198CC7158EB8D2931C54E55C3618D /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		2F8FA52CA6ED40C5FCBD2E3F4A63C871 /* Pods-GoogleMapSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoogleMapSDK.modulemap"; sourceTree = "<group>"; };
+		316C71A9A5CEA6AFA56A1ACBC6E0A83C /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		38ACE3B499D15A64DB77EDAF18ED0F37 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		3A66253445B66F140F44074E72CCAF7A /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
+		3BDD6DFA5C4567048A38E0FC9FC78BB4 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		44D12D9A196C3A84DA5C0A605D4B3F9D /* Toaster.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.xcconfig; sourceTree = "<group>"; };
+		49A90729C74EB814A8EF81153AD0FB04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7F1A107C52B3A5BE5CF40D40DDB79A /* Pods-GoogleMapSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleMapSDK-umbrella.h"; sourceTree = "<group>"; };
+		4C0387046D416B18293CF691616C96DD /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		5881E95ED62B55E85BD17E9E4B44B7B8 /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		5D82B54AAA14B431A56B01B2DE9B0030 /* Pods_GoogleMapSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E90AFC6ADA8EF7A5E3C7C12F9C2D77F /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		759B1A67D04468453D9A1989BAD9C04F /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		77B228970F866AE1E9F5C18D19DB05A4 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		782CF2AF8860DFEEF00AB255ED066365 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		787468EFBD57900814D50B70374DCD1D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		7B10CFC6F30958B4F959D6564B0A6675 /* Pods-GoogleMapSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMapSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		8221C1125166CC2E4ACF87AFD9079B39 /* Toaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830582C98D2ED3AA862D449A710AE683 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC0C3AA7599B9A585A2297F2FD065E5 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		8E0520BE30BA896EEED94186FDE999D4 /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
+		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97799F4CED9032E5E2DD57919B681639 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAE8F36EC79AC991C9BC9F03F1F5546 /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
+		9BDA0775644EFD2676AE1454FD2F2E5E /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
+		A31AEA5529F1C8EE5CC5C6EE12696F49 /* Pods-GoogleMapSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleMapSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A85874FE14DFACDD13112D988C849FA8 /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
+		A9F113C147D192FFC6B0892655307DE0 /* Pods-GoogleMapSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMapSDK-frameworks.sh"; sourceTree = "<group>"; };
+		AC08BBFA1A17FDE5E1D3E17116ED34CA /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		AE75A1155631B811663AC70E6973322C /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
+		B22F4546E2AD87DA5597350413AC2630 /* Pods-GoogleMapSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMapSDK.release.xcconfig"; sourceTree = "<group>"; };
+		B99BF4B53931F8B66AD07C1B08A97003 /* Pods-GoogleMapSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleMapSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		C13DE763CEB134854E4A7F3E4A2BF3E4 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		C182004F6FA6C349CFD8F0D27B052A71 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		D197FA0E8C194280B638DFDD589F248B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1EF71A883B4D03D3CC9278217075D8F /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		D563075842B25C589B47AF3BFC4E1D80 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		D5FFD18CD6AFA450EFD238D2ED650762 /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E28A35A0054611E1DC6A308A8CDE45E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E83EB8451193AB0F9E7366FBC6F3036A /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		EB47CAFC295920EE713E9D6A639EE625 /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toaster.modulemap; sourceTree = "<group>"; };
+		F9B52E31130058B49592C8EF3DC5C682 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		FCA3EAB7E3A7F310D6275FCF737B3CEC /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		FDEBB137545128E677E8D8A66F4CAFDD /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5488B28C58663214FBC7FAA3987826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5484332674A281AA1F064F3F4858988 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BA237CA30B5B01373DAD85F9315538 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B20AEEA7345336BA64B3C1F6731B171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA9EAEF8A282390B2A6AECB8E453EDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5827D1037F44F593816C0F916CDBFD8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63012A61F325919144F2D1875A975FAF /* Foundation.framework in Frameworks */,
+				8C61E4B5F7EC7480F3D4ABDB7BAE0B33 /* QuartzCore.framework in Frameworks */,
+				2AE3F57A5FC4A4509ED5975ECD154FAE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A9118A4F49100B69F33C0E54C4B6BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97799F4CED9032E5E2DD57919B681639 /* Info.plist */,
+				FCA3EAB7E3A7F310D6275FCF737B3CEC /* SwiftyJSON.modulemap */,
+				8BC0C3AA7599B9A585A2297F2FD065E5 /* SwiftyJSON.xcconfig */,
+				098815AC4870004F2A1DFC1351C40922 /* SwiftyJSON-dummy.m */,
+				782CF2AF8860DFEEF00AB255ED066365 /* SwiftyJSON-prefix.pch */,
+				5E90AFC6ADA8EF7A5E3C7C12F9C2D77F /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16A83A06E16EC740B41F6E88D47B9C0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACF7A0D6FA97C027B758DB512944045 /* Pods-GoogleMapSDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29F8FA6D0591D4603B7A3D3D9E6BA368 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B228970F866AE1E9F5C18D19DB05A4 /* DropDown.modulemap */,
+				D5FFD18CD6AFA450EFD238D2ED650762 /* DropDown.xcconfig */,
+				D563075842B25C589B47AF3BFC4E1D80 /* DropDown-dummy.m */,
+				759B1A67D04468453D9A1989BAD9C04F /* DropDown-prefix.pch */,
+				316C71A9A5CEA6AFA56A1ACBC6E0A83C /* DropDown-umbrella.h */,
+				E28A35A0054611E1DC6A308A8CDE45E7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		486123A00E42FB995507BCA6B2559DAE /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				AE75A1155631B811663AC70E6973322C /* Toast.swift */,
+				A85874FE14DFACDD13112D988C849FA8 /* ToastCenter.swift */,
+				9BAE8F36EC79AC991C9BC9F03F1F5546 /* Toaster.h */,
+				3A66253445B66F140F44074E72CCAF7A /* ToastView.swift */,
+				9BDA0775644EFD2676AE1454FD2F2E5E /* ToastWindow.swift */,
+				C4648D5D05BEAE8C2E1D288C5F4534CC /* Support Files */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		664757CB8243B9EDAF65DC7E4B3CB276 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				3BDD6DFA5C4567048A38E0FC9FC78BB4 /* SwiftyJSON.swift */,
+				06A9118A4F49100B69F33C0E54C4B6BC /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				B77580970AFAE210666C6436D63A5149 /* Pods */,
+				A70AA74FA8E90D24CBA16E8B82413026 /* Products */,
+				16A83A06E16EC740B41F6E88D47B9C0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED84B68991FED0FB586B691A2ADA200 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CF0DEC5A8441BCE2F7DABE88851249E8 /* Frameworks */,
+				B191AEECA11D0EA41653E860113DAB7A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		87593F7E76B7D18E7A22AF9B289F03DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBB137545128E677E8D8A66F4CAFDD /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
+				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
+				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A70AA74FA8E90D24CBA16E8B82413026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1D5303021E44B58D6B8A51DA4A849E /* DropDown.framework */,
+				5D82B54AAA14B431A56B01B2DE9B0030 /* Pods_GoogleMapSDK.framework */,
+				830582C98D2ED3AA862D449A710AE683 /* SwiftyJSON.framework */,
+				8221C1125166CC2E4ACF87AFD9079B39 /* Toaster.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B191AEECA11D0EA41653E860113DAB7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C182004F6FA6C349CFD8F0D27B052A71 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B77580970AFAE210666C6436D63A5149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C73DA53432C205B283E91854E2F821EB /* DropDown */,
+				EA1782E6E52DCA94531CA1A23D1AD2BC /* GoogleMaps */,
+				664757CB8243B9EDAF65DC7E4B3CB276 /* SwiftyJSON */,
+				486123A00E42FB995507BCA6B2559DAE /* Toaster */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4648D5D05BEAE8C2E1D288C5F4534CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D197FA0E8C194280B638DFDD589F248B /* Info.plist */,
+				EB47CAFC295920EE713E9D6A639EE625 /* Toaster.modulemap */,
+				44D12D9A196C3A84DA5C0A605D4B3F9D /* Toaster.xcconfig */,
+				8E0520BE30BA896EEED94186FDE999D4 /* Toaster-dummy.m */,
+				5881E95ED62B55E85BD17E9E4B44B7B8 /* Toaster-prefix.pch */,
+				AC08BBFA1A17FDE5E1D3E17116ED34CA /* Toaster-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toaster";
+			sourceTree = "<group>";
+		};
+		C73DA53432C205B283E91854E2F821EB /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				D1EF71A883B4D03D3CC9278217075D8F /* DPDConstants.swift */,
+				4C0387046D416B18293CF691616C96DD /* DPDKeyboardListener.swift */,
+				2F4198CC7158EB8D2931C54E55C3618D /* DPDUIView+Extension.swift */,
+				E83EB8451193AB0F9E7366FBC6F3036A /* DropDown.swift */,
+				2B1F46DC828A744B2C5BDE04D531B179 /* DropDown+Appearance.swift */,
+				F9B52E31130058B49592C8EF3DC5C682 /* DropDownCell.swift */,
+				87593F7E76B7D18E7A22AF9B289F03DD /* Resources */,
+				29F8FA6D0591D4603B7A3D3D9E6BA368 /* Support Files */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		CACF7A0D6FA97C027B758DB512944045 /* Pods-GoogleMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				49A90729C74EB814A8EF81153AD0FB04 /* Info.plist */,
+				2F8FA52CA6ED40C5FCBD2E3F4A63C871 /* Pods-GoogleMapSDK.modulemap */,
+				A31AEA5529F1C8EE5CC5C6EE12696F49 /* Pods-GoogleMapSDK-acknowledgements.markdown */,
+				B99BF4B53931F8B66AD07C1B08A97003 /* Pods-GoogleMapSDK-acknowledgements.plist */,
+				0E68CF58D4761717D9B01F20F2DAFAF4 /* Pods-GoogleMapSDK-dummy.m */,
+				A9F113C147D192FFC6B0892655307DE0 /* Pods-GoogleMapSDK-frameworks.sh */,
+				23D0DABDAB4F0A2DDFEE844385805101 /* Pods-GoogleMapSDK-resources.sh */,
+				4A7F1A107C52B3A5BE5CF40D40DDB79A /* Pods-GoogleMapSDK-umbrella.h */,
+				7B10CFC6F30958B4F959D6564B0A6675 /* Pods-GoogleMapSDK.debug.xcconfig */,
+				B22F4546E2AD87DA5597350413AC2630 /* Pods-GoogleMapSDK.release.xcconfig */,
+			);
+			name = "Pods-GoogleMapSDK";
+			path = "Target Support Files/Pods-GoogleMapSDK";
+			sourceTree = "<group>";
+		};
+		CF0DEC5A8441BCE2F7DABE88851249E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787468EFBD57900814D50B70374DCD1D /* GoogleMaps.framework */,
+				C13DE763CEB134854E4A7F3E4A2BF3E4 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6CA18BD63F3190021092C4F4FCAE46E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F93BB46601ADE73D042F44434BCED2B0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		EA1782E6E52DCA94531CA1A23D1AD2BC /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				D6CA18BD63F3190021092C4F4FCAE46E /* Base */,
+				7ED84B68991FED0FB586B691A2ADA200 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		F93BB46601ADE73D042F44434BCED2B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38ACE3B499D15A64DB77EDAF18ED0F37 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F0B7F475282750582E5B424FD71999D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5ADEAA2A8CC036955C5D17BA23E157 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29E4531DDB700F868B89A142D9D334A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC59A3B1529AD053FF6F9C15B5C16565 /* Toaster-umbrella.h in Headers */,
+				EE86A3C1A8CB35B6F08C78E1BC8C13A3 /* Toaster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F33C4D4750472A4FE7FB1ECC361B2033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD36614174EFB5DA09D736510CBAE83 /* Pods-GoogleMapSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				ED45CA897A4B81CB8204042001D7AEE8 /* Sources */,
+				3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */,
+				D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */,
+				1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 2C1D5303021E44B58D6B8A51DA4A849E /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69CA1B9ED84BA34CBE77A81328F02C1C /* Toaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7EC25B993FE9349C70784715728AB4B /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildPhases = (
+				F8C8FC089626052FD86D818DE5823B9F /* Sources */,
+				5827D1037F44F593816C0F916CDBFD8C /* Frameworks */,
+				B29E4531DDB700F868B89A142D9D334A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toaster;
+			productName = Toaster;
+			productReference = 8221C1125166CC2E4ACF87AFD9079B39 /* Toaster.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		813A72E83896603ABD856C6CB661B7A1 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9623C72A59EA31037D2D50AF196E30D5 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				1E0C9C0F0DE2D369EE116C4FAE98474B /* Sources */,
+				1F5488B28C58663214FBC7FAA3987826 /* Frameworks */,
+				5F0B7F475282750582E5B424FD71999D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 830582C98D2ED3AA862D449A710AE683 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C56F7259058E921846E5F5D60EB79F75 /* Pods-GoogleMapSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CEEB5EE2FFE74D0A685B60123A93665 /* Build configuration list for PBXNativeTarget "Pods-GoogleMapSDK" */;
+			buildPhases = (
+				2208A18A90345127A55FCA114EF77AE8 /* Sources */,
+				4B20AEEA7345336BA64B3C1F6731B171 /* Frameworks */,
+				F33C4D4750472A4FE7FB1ECC361B2033 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB426AB9CDF9D6DF3938C0281A6C933 /* PBXTargetDependency */,
+				883020FE8917882A39C7D16873D097A0 /* PBXTargetDependency */,
+				8EF681BA04C42369FFE96F2737BA608C /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleMapSDK";
+			productName = "Pods-GoogleMapSDK";
+			productReference = 5D82B54AAA14B431A56B01B2DE9B0030 /* Pods_GoogleMapSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A70AA74FA8E90D24CBA16E8B82413026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */,
+				C56F7259058E921846E5F5D60EB79F75 /* Pods-GoogleMapSDK */,
+				813A72E83896603ABD856C6CB661B7A1 /* SwiftyJSON */,
+				69CA1B9ED84BA34CBE77A81328F02C1C /* Toaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0C9C0F0DE2D369EE116C4FAE98474B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348AD88175B9E80A0B03EC74A0415D86 /* SwiftyJSON-dummy.m in Sources */,
+				0B6C208A5C690D0F0D67DB0AE2347843 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2208A18A90345127A55FCA114EF77AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2890A72D298B32133AB36B9F3D01C8 /* Pods-GoogleMapSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED45CA897A4B81CB8204042001D7AEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */,
+				9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */,
+				A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */,
+				442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */,
+				AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */,
+				02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */,
+				098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8FC089626052FD86D818DE5823B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD36599655C99095F4F396848CBC80EA /* Toast.swift in Sources */,
+				94643799F22ABD8D6AE970B1BA2D7C87 /* ToastCenter.swift in Sources */,
+				C0EAC08230B851F4DFCCF9865DF7F27A /* Toaster-dummy.m in Sources */,
+				76919B72CF5B129A45839C24157A8E00 /* ToastView.swift in Sources */,
+				044842FC9E076466ABD37E81994376B7 /* ToastWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB426AB9CDF9D6DF3938C0281A6C933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = 5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */;
+			targetProxy = 9D0921FD42E60F3D7FC491870035AD4E /* PBXContainerItemProxy */;
+		};
+		883020FE8917882A39C7D16873D097A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 813A72E83896603ABD856C6CB661B7A1 /* SwiftyJSON */;
+			targetProxy = 9177362A36D58622807A7FBCED33AD1F /* PBXContainerItemProxy */;
+		};
+		8EF681BA04C42369FFE96F2737BA608C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = 69CA1B9ED84BA34CBE77A81328F02C1C /* Toaster */;
+			targetProxy = 67399FC68C5D3AA59CB26C9DE29684C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		311202FF8E73629E38B66C69DE18C93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FFD18CD6AFA450EFD238D2ED650762 /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		867A1F35435FF6980F4ECF521ED32EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D12D9A196C3A84DA5C0A605D4B3F9D /* Toaster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A20945277F33577ECC033E971805530B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FFD18CD6AFA450EFD238D2ED650762 /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB62D18FE6C6C44F88FD368A4126055D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC0C3AA7599B9A585A2297F2FD065E5 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D140502704F79296AA97D0AA9179D4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC0C3AA7599B9A585A2297F2FD065E5 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F37D588E38B65F2941F5C8B347F96C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B10CFC6F30958B4F959D6564B0A6675 /* Pods-GoogleMapSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleMapSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleMapSDK/Pods-GoogleMapSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9A853C236D875A5FBA9BBEA6CA6ACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22F4546E2AD87DA5597350413AC2630 /* Pods-GoogleMapSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleMapSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleMapSDK/Pods-GoogleMapSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE5FCF1095FC25D0174F1B3BF7B129A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D12D9A196C3A84DA5C0A605D4B3F9D /* Toaster.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CEEB5EE2FFE74D0A685B60123A93665 /* Build configuration list for PBXNativeTarget "Pods-GoogleMapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37D588E38B65F2941F5C8B347F96C93 /* Debug */,
+				F9A853C236D875A5FBA9BBEA6CA6ACB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
+				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20945277F33577ECC033E971805530B /* Debug */,
+				311202FF8E73629E38B66C69DE18C93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9623C72A59EA31037D2D50AF196E30D5 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D140502704F79296AA97D0AA9179D4A7 /* Debug */,
+				BB62D18FE6C6C44F88FD368A4126055D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7EC25B993FE9349C70784715728AB4B /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867A1F35435FF6980F4ECF521ED32EB4 /* Debug */,
+				FE5FCF1095FC25D0174F1B3BF7B129A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
