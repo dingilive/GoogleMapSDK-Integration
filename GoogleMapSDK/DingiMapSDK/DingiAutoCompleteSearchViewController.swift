@@ -19,9 +19,7 @@ class DingiAutoCompleteSearchViewController: UIViewController, DingiMapViewDeleg
     var Result: JSON?
     let suggestion = DropDown()
     var SuggetionString = [String]()
-    @IBAction func backPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
+
     
     
     @IBAction func crossButtonPressed(_ sender: Any) {

@@ -110,17 +110,6 @@
                                     <action selector="textfieldvaluechanged:" destination="uQu-Qr-gJ8" eventType="editingChanged" id="kdd-Wb-ea0"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWe-3K-1Pr">
-                                <rect key="frame" x="8" y="50" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="e0F-SL-Cgw"/>
-                                    <constraint firstAttribute="width" constant="50" id="jRb-69-eAe"/>
-                                </constraints>
-                                <state key="normal" image="back_black"/>
-                                <connections>
-                                    <action selector="backPressed:" destination="uQu-Qr-gJ8" eventType="touchUpInside" id="df7-RH-KB3"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ps8-V0-agm">
                                 <rect key="frame" x="314" y="50" width="45" height="45"/>
                                 <constraints>
@@ -137,11 +126,9 @@
                         <constraints>
                             <constraint firstItem="xG1-Ye-0RO" firstAttribute="leading" secondItem="3r0-VI-3gP" secondAttribute="leading" constant="68" id="4Hz-Ff-BZV"/>
                             <constraint firstItem="Ps8-V0-agm" firstAttribute="top" secondItem="3r0-VI-3gP" secondAttribute="top" constant="30" id="4NP-s7-wjz"/>
-                            <constraint firstItem="xG1-Ye-0RO" firstAttribute="top" secondItem="lWe-3K-1Pr" secondAttribute="top" id="8FJ-da-icf"/>
                             <constraint firstItem="Wcn-Nm-Xxj" firstAttribute="leading" secondItem="3r0-VI-3gP" secondAttribute="leading" id="CIQ-l4-gnF"/>
                             <constraint firstItem="3r0-VI-3gP" firstAttribute="trailing" secondItem="Ps8-V0-agm" secondAttribute="trailing" constant="16" id="GnF-Yi-Occ"/>
-                            <constraint firstItem="lWe-3K-1Pr" firstAttribute="top" secondItem="3r0-VI-3gP" secondAttribute="top" constant="30" id="JBy-pt-hfw"/>
-                            <constraint firstItem="lWe-3K-1Pr" firstAttribute="leading" secondItem="3r0-VI-3gP" secondAttribute="leading" constant="8" id="Qsf-44-FWx"/>
+                            <constraint firstItem="xG1-Ye-0RO" firstAttribute="top" secondItem="3r0-VI-3gP" secondAttribute="top" constant="30" id="QSv-JK-HuZ"/>
                             <constraint firstItem="Wcn-Nm-Xxj" firstAttribute="trailing" secondItem="3r0-VI-3gP" secondAttribute="trailing" id="hPG-Yy-Rfi"/>
                             <constraint firstItem="3r0-VI-3gP" firstAttribute="trailing" secondItem="xG1-Ye-0RO" secondAttribute="trailing" constant="16" id="lbF-Yl-lbx"/>
                             <constraint firstItem="Wcn-Nm-Xxj" firstAttribute="top" secondItem="QwY-Oy-Vfa" secondAttribute="top" id="pzc-OT-mVF"/>
@@ -675,17 +662,6 @@
                                     <action selector="textfieldvaluechanged:" destination="I70-De-6yp" eventType="editingChanged" id="cc2-5q-89n"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsE-fX-UPF">
-                                <rect key="frame" x="8" y="50" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="caV-vu-pG4"/>
-                                    <constraint firstAttribute="width" constant="50" id="hQ9-8z-gmC"/>
-                                </constraints>
-                                <state key="normal" image="back_black"/>
-                                <connections>
-                                    <action selector="backPressed:" destination="I70-De-6yp" eventType="touchUpInside" id="UTr-tk-TyV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6S-at-pEU">
                                 <rect key="frame" x="314" y="50" width="45" height="45"/>
                                 <constraints>
@@ -700,12 +676,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="CsE-fX-UPF" firstAttribute="top" secondItem="zvE-vB-CT5" secondAttribute="top" constant="30" id="alf-n0-QZO"/>
+                            <constraint firstItem="7cI-Um-BzW" firstAttribute="top" secondItem="zvE-vB-CT5" secondAttribute="top" constant="30" id="IYV-Vt-UWB"/>
                             <constraint firstItem="7cI-Um-BzW" firstAttribute="leading" secondItem="zvE-vB-CT5" secondAttribute="leading" constant="68" id="bYX-E0-bgg"/>
                             <constraint firstItem="zvE-vB-CT5" firstAttribute="trailing" secondItem="7cI-Um-BzW" secondAttribute="trailing" constant="16" id="baf-1M-rpG"/>
                             <constraint firstItem="zvE-vB-CT5" firstAttribute="trailing" secondItem="N6S-at-pEU" secondAttribute="trailing" constant="16" id="bhz-Ss-xDE"/>
-                            <constraint firstItem="7cI-Um-BzW" firstAttribute="top" secondItem="CsE-fX-UPF" secondAttribute="top" id="cDY-3U-pYs"/>
-                            <constraint firstItem="CsE-fX-UPF" firstAttribute="leading" secondItem="zvE-vB-CT5" secondAttribute="leading" constant="8" id="o7i-8d-bhw"/>
                             <constraint firstItem="N6S-at-pEU" firstAttribute="top" secondItem="zvE-vB-CT5" secondAttribute="top" constant="30" id="wXm-ci-Q5U"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zvE-vB-CT5"/>
